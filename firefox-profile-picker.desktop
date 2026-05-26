@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Firefox Profile Picker
+Exec=/home/owenclarke/.scripts/firefox-profile-picker.sh %u
+Type=Application
+NoDisplay=true
+MimeType=x-scheme-handler/http;x-scheme-handler/https;
