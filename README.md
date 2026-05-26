@@ -22,6 +22,7 @@ Copies the script to `~/.local/bin`, writes a copy of the desktop entry with the
 - Ubuntu (or another GNOME-based distro)
 - Firefox installed via **apt** or **snap**
 - `zenity` — install it if missing:
+
   ```sh
   sudo apt install zenity
   ```
@@ -29,18 +30,21 @@ Copies the script to `~/.local/bin`, writes a copy of the desktop entry with the
 ## Installation
 
 1. Clone the repository anywhere on your machine:
+
    ```sh
    git clone https://github.com/your-username/firefox-profilepicker-ubuntu.git
    cd firefox-profilepicker-ubuntu
    ```
 
 2. Make the install script executable and run it:
+
    ```sh
    chmod +x install.sh
    ./install.sh
    ```
 
 That's it. The installer will:
+
 - Copy `firefox-profile-picker.sh` to `~/.local/bin/firefox-profile-picker`
 - Write the desktop entry to `~/.local/share/applications/`
 - Register it as the default handler for `http://` and `https://` links
